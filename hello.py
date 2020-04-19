@@ -22,7 +22,7 @@ OPTIONS:
   -b --bar BAR       Sets bar to BAR. [default: asdf]
   --dynamic DYN      This is set dynamically. [default: {dyn}]
   -e --either        Something.
-  -f --foo           Sets foo to true.
+  -f --foo FOO       Sets foo.
   --license          Prints license and exit.
   -o --or            Something else.
   -r --required      This option is required for no reason.
