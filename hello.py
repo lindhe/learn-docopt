@@ -36,6 +36,20 @@ OPTIONS:
 
 """
 
-if __name__ == '__main__':
+def helper(foo = "default", bar = dyn):
+  print(f"Foo is {foo} while bar is {bar}")
+
+def main():
+  """ My main function """
   args = docopt(docs, version=__version__)
-  print(args)
+  helper(foo = args['--foo'], bar = args['--bar'])
+
+if __name__ == '__main__':
+  try:
+    main()
+  except KeyboardInterrupt:
+    sys.exit("\nInterrupted by ^C\n")
+
+
+
+
