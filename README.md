@@ -17,3 +17,10 @@ pipenv install
 pipenv shell
 ./hello.py
 ```
+
+## Resources
+
+Getting started: https://pypi.org/project/docopt/
+
+Examples: https://github.com/docopt/docopt/tree/master/examples
+
