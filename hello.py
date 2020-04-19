@@ -16,7 +16,8 @@ dyn = "xkcd"
 docs = f"""Learn docopt.
 
 USAGE:
-{sys.argv[0]} <input_file> ... --required [--either | --or] [-v | -vv | -vvv] [options]
+{sys.argv[0]} <input_file> ... [-v | -vv | -vvv] [options]
+{sys.argv[0]} --required [--either | --or] [options]
 
 ARGUMENTS:
   <input_file>      Input file.
