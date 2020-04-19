@@ -16,13 +16,15 @@ dyn = "xkcd"
 docs = f"""Learn docopt.
 
 USAGE:
-{sys.argv[0]} <input_file> [options]
+{sys.argv[0]} <input_file> [--either | --or] [options]
 
 OPTIONS:
   -b --bar BAR       Sets bar to BAR. [default: asdf]
   --dynamic DYN      This is set dynamically. [default: {dyn}]
+  -e --either        Something.
   -f --foo           Sets foo to true.
   --license          Prints license and exit.
+  -o --or            Something else.
   -h --help          Show this help.
   --version          Print version and exit.
 
