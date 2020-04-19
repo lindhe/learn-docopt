@@ -23,7 +23,6 @@ OPTIONS:
   --dynamic DYN      This is set dynamically. [default: {dyn}]
   -f --foo           Sets foo to true.
   --license          Prints license and exit.
-  -o --output FILE   Sets output file.
   -h --help          Show this help.
   --version          Print version and exit.
 
