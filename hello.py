@@ -26,10 +26,10 @@ OPTIONS:
   --dynamic DYN      This is set dynamically. [default: {dyn}]
   -e --either        Something.
   -f --foo FOO       Sets foo.
+  -h --help          Show this help.
   --license          Prints license and exit.
   -o --or            Something else.
   -r --required      This option is required for no reason.
-  -h --help          Show this help.
   -v --verbose       Talk more.
   --version          Print version and exit.
 
