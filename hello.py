@@ -18,6 +18,9 @@ docs = f"""Learn docopt.
 USAGE:
 {sys.argv[0]} <input_file> ... --required [--either | --or] [-v | -vv | -vvv] [options]
 
+ARGUMENTS:
+  <input_file>      Input file.
+
 OPTIONS:
   -b --bar BAR       Sets bar to BAR. [default: asdf]
   --dynamic DYN      This is set dynamically. [default: {dyn}]
