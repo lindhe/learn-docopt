@@ -15,7 +15,7 @@ pipenv install
 
 ```
 pipenv shell
-./hello.py
+./hello.py -h
 ```
 
 ## Resources
