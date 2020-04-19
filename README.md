@@ -15,5 +15,5 @@ pipenv install
 
 ```
 pipenv shell
-./docopt.py
+./hello.py
 ```
