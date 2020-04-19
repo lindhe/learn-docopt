@@ -16,7 +16,7 @@ dyn = "xkcd"
 docs = f"""Learn docopt.
 
 USAGE:
-{sys.argv[0]} <input_file> --required [--either | --or] [options]
+{sys.argv[0]} <input_file> --required [--either | --or] [-v | -vv | -vvv] [options]
 
 OPTIONS:
   -b --bar BAR       Sets bar to BAR. [default: asdf]
@@ -27,6 +27,7 @@ OPTIONS:
   -o --or            Something else.
   -r --required      This option is required for no reason.
   -h --help          Show this help.
+  -v --verbose       Talk more.
   --version          Print version and exit.
 
 """
