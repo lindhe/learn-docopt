@@ -7,6 +7,10 @@
 import sys
 from docopt import docopt
 
+__author__ = "Andreas Lindhé"
+__license__ = "MIT"
+__version__ = "0.1.0"
+
 dyn = "xkcd"
 
 docs = f"""Learn docopt.
@@ -23,10 +27,6 @@ OPTIONS:
   --version          Print version and exit.
 
 """
-
-__author__ = "Andreas Lindhé"
-__license__ = "MIT"
-__version__ = "0.1.0"
 
 if __name__ == '__main__':
   args = docopt(docs, version=__version__)
