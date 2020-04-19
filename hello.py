@@ -16,7 +16,7 @@ dyn = "xkcd"
 docs = f"""Learn docopt.
 
 USAGE:
-{sys.argv[0]} <input_file> [--either | --or] [options]
+{sys.argv[0]} <input_file> --required [--either | --or] [options]
 
 OPTIONS:
   -b --bar BAR       Sets bar to BAR. [default: asdf]
@@ -25,6 +25,7 @@ OPTIONS:
   -f --foo           Sets foo to true.
   --license          Prints license and exit.
   -o --or            Something else.
+  -r --required      This option is required for no reason.
   -h --help          Show this help.
   --version          Print version and exit.
 
